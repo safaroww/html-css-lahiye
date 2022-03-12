@@ -1,0 +1,243 @@
+.container2 {
+  width: 80% !important;
+  margin: auto !important;
+}
+
+#main .box-1 {
+  position: relative;
+}
+
+#main .box-1:hover .text {
+  top: 580px;
+}
+
+#main .box-1:hover .text h4 {
+  opacity: 1;
+}
+
+#main .box-1 .img-1 {
+  position: absolute;
+}
+
+#main .box-1 .img-1 img {
+  width: 100%;
+}
+
+#main .box-1 .text {
+  position: absolute;
+  margin-left: 50px;
+  top: 614px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+#main .box-1 .text h1 {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+#main .box-1 .text h4 {
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: inline;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#main .box-1 .text h4::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+}
+
+#main .box-2 .img-box-0 .img-2 {
+  position: absolute;
+}
+
+#main .box-2 .img-box-0 .img-2 img {
+  width: 100%;
+}
+
+#main .box-2 .img-box-0:hover .text-1 {
+  top: 580px;
+}
+
+#main .box-2 .img-box-0:hover .text-1 h4 {
+  opacity: 1;
+}
+
+#main .box-2 .img-box-0 .text-1 {
+  position: absolute;
+  text-align: center;
+  top: 614px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  margin-left: 75px;
+}
+
+#main .box-2 .img-box-0 .text-1 h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+#main .box-2 .img-box-0 .text-1 h4 {
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: inline;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#main .box-2 .img-box-0 .text-1 h4::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+#main .box-2 .img-box-1 {
+  position: relative;
+  left: 50%;
+}
+
+#main .box-2 .img-box-1 .img-1 {
+  position: absolute;
+}
+
+#main .box-2 .img-box-1 .img-1 img {
+  width: 100%;
+}
+
+#main .box-2 .img-box-1:hover .text-2 {
+  top: 230px;
+}
+
+#main .box-2 .img-box-1:hover .text-2 h4 {
+  opacity: 1;
+}
+
+#main .box-2 .img-box-1 .text-2 {
+  position: absolute;
+  top: 260px;
+  left: 75px;
+  text-align: center;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+#main .box-2 .img-box-1 .text-2 h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+#main .box-2 .img-box-1 .text-2 h4 {
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: inline;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#main .box-2 .img-box-1 .text-2 h4::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+
+#main .box-2 .img-box-2 {
+  position: relative;
+  left: 50%;
+  top: 356px;
+}
+
+#main .box-2 .img-box-2 .img-3 {
+  position: absolute;
+}
+
+#main .box-2 .img-box-2 .img-3 img {
+  width: 100%;
+}
+
+#main .box-2 .img-box-2:hover .text-3 {
+  top: 230px;
+}
+
+#main .box-2 .img-box-2:hover .text-3 h4 {
+  opacity: 1;
+}
+
+#main .box-2 .img-box-2 .text-3 {
+  position: absolute;
+  top: 260px;
+  left: 68px;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+  text-align: center;
+}
+
+#main .box-2 .img-box-2 .text-3 h1 {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: #000;
+}
+
+#main .box-2 .img-box-2 .text-3 h4 {
+  color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  display: inline;
+  opacity: 0;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#main .box-2 .img-box-2 .text-3 h4::before {
+  content: "";
+  position: absolute;
+  top: 120%;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+}
+/*# sourceMappingURL=style.css.map */
